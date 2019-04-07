@@ -1,13 +1,13 @@
 {
   "main.css": "/runescape-react-simulator/static/css/main.7df60ddc.chunk.css",
-  "main.js": "/runescape-react-simulator/static/js/main.57a87063.chunk.js",
-  "main.js.map": "/runescape-react-simulator/static/js/main.57a87063.chunk.js.map",
+  "main.js": "/runescape-react-simulator/static/js/main.7b23ac56.chunk.js",
+  "main.js.map": "/runescape-react-simulator/static/js/main.7b23ac56.chunk.js.map",
   "runtime~main.js": "/runescape-react-simulator/static/js/runtime~main.b524ad8e.js",
   "runtime~main.js.map": "/runescape-react-simulator/static/js/runtime~main.b524ad8e.js.map",
-  "static/js/2.25312ee8.chunk.js": "/runescape-react-simulator/static/js/2.25312ee8.chunk.js",
-  "static/js/2.25312ee8.chunk.js.map": "/runescape-react-simulator/static/js/2.25312ee8.chunk.js.map",
+  "static/js/2.11e0fe10.chunk.js": "/runescape-react-simulator/static/js/2.11e0fe10.chunk.js",
+  "static/js/2.11e0fe10.chunk.js.map": "/runescape-react-simulator/static/js/2.11e0fe10.chunk.js.map",
   "index.html": "/runescape-react-simulator/index.html",
-  "precache-manifest.fd4daf8bda097f8f07578d7293b0e683.js": "/runescape-react-simulator/precache-manifest.fd4daf8bda097f8f07578d7293b0e683.js",
+  "precache-manifest.9c0a77e5a2daee45523beeec7f7efc7e.js": "/runescape-react-simulator/precache-manifest.9c0a77e5a2daee45523beeec7f7efc7e.js",
   "service-worker.js": "/runescape-react-simulator/service-worker.js",
   "static/css/main.7df60ddc.chunk.css.map": "/runescape-react-simulator/static/css/main.7df60ddc.chunk.css.map"
 }

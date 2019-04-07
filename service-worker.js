@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/runescape-react-simulator/precache-manifest.fd4daf8bda097f8f07578d7293b0e683.js"
+  "/runescape-react-simulator/precache-manifest.9c0a77e5a2daee45523beeec7f7efc7e.js"
 );
 
 workbox.clientsClaim();
