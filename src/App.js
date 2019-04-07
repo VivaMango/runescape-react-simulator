@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import icons from "./icons.json"
+import icons from "./icons.js"
 import IconContainer from './components/IconContainer';
 import IconCard from './components/IconCard';
 import Jumbotron from "./components/Jumbotron";
