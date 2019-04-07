@@ -6,16 +6,9 @@ function IconCard(props) {
       <div className="img-container">
         <img alt={props.skill} src={props.icon} />
       </div>
-      <div className="content">
-        <ul>
-            <li>
-                <strong>ID:</strong> {props.id}
-            </li>
-            <li>
-                <strong>Skill:</strong> {props.skill}
-            </li>
-        </ul>
-      </div>
+      <span>
+          {props.children}
+      </span>
     </div>
     )
 };

@@ -5,13 +5,21 @@ import IconContainer from './components/IconContainer';
 import IconCard from './components/IconCard';
 import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
+import IconButton from './components/IconButton';
 
 class App extends Component {
 
-  state = { icons }
+  state = { 
+    icons,
+  lastClicked: 99
+ }
 
   componentDidMount() {
     console.log("app mounted")
+  }
+
+  increaseScore = _ => {
+    console.log(this, "increaseScore run")
   }
 
   render() {
@@ -24,7 +32,9 @@ class App extends Component {
             icon={icon.icon}
             key={icon.id}
             id={icon.id}
-            skill={icon.skill}>
+            skill={icon.skill}
+            >
+            <IconButton increaseScore={this.increaseScore} />
             </IconCard>)
         })}
       </IconContainer>
