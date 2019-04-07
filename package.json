@@ -2,7 +2,7 @@
   "name": "runescape-react-simulator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vivamango.github.io/",
+  "homepage": "https://vivamango.github.io/runescape-react-simulator",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
