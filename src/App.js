@@ -11,21 +11,43 @@ class App extends Component {
 
   state = { 
     icons,
-  lastClicked: 99
+  lastClicked: 99,
+  score: 0
  }
 
   componentDidMount() {
     console.log("app mounted")
   }
 
-  increaseScore = _ => {
-    console.log(this, "increaseScore run")
+  setLastClicked = id => {
+    console.log(this, "setLastClick run")
+    console.log(id , "sLC ID")
+    this.setState(state => {
+      console.log (state.lastClicked)
+      return {lastClicked: id}
+    })
+    console.log(this.state.lastClicked , "tsLC")
+  }
+
+  scoreManipulator = (current) => {
+    (this.state.lastClicked !== current) 
+    ? this.setState(state => {
+      return {score: (state.score + 1)}
+    })
+    : this.setState(state => {
+      return {score: 0}
+    })
+  }
+
+  componentDidUpdate() {
+    console.log(this.state.lastClicked , "cDU")
+    console.log(this.state.score , "cdu score")
   }
 
   render() {
     return (
       <Wrapper>
-      <Jumbotron />
+      <Jumbotron score={this.state.score}/>
       <IconContainer>
         {this.state.icons.map(icon => {
           return (<IconCard 
@@ -34,7 +56,7 @@ class App extends Component {
             id={icon.id}
             skill={icon.skill}
             >
-            <IconButton increaseScore={this.increaseScore} />
+            <IconButton setLastClicked={this.setLastClicked} scoreManipulator={this.scoreManipulator} />
             </IconCard>)
         })}
       </IconContainer>
